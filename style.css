@@ -1,0 +1,429 @@
+html {
+    font-size: 81.25%;
+    font-family: arial, helvetica, sans-serif;
+    line-height: 1;
+    background-color: #505050;
+}
+ 
+body {
+    padding: 1px;
+}
+
+#overall_form {
+    position: relative;
+    width: 1095px;
+    min-height: 543px;
+    color: #25b4dd;
+    background-color: #ffffff;
+    border-color: #25b4dd;
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;}
+ 
+#overall {
+    position: relative;
+    width: 1095px;
+    min-height: 543px;
+    color: #25b4dd;
+    background-color: #f5f5f5;
+    border-color: #25b4dd;
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#overall_dashboard {
+    position: relative;    
+    /* background-color: #ffffff; */
+    background-image: url('/pics/bg_dashboard.png');
+    background-size: 100%;
+    width: 1095px;
+    min-height: 543px;
+    color: #25b4dd;
+    border-color: #25b4dd;
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
+#head {
+    height: 20px;
+
+}
+#head_request_form_left {
+    display: block;
+    height: 20px;
+    margin: 25px 35px 35px 57px;
+    float: left;
+    
+
+}
+#head_request_form_right {
+    display: block;
+    height: 20px;
+    margin: 35px 150px 35px 57px;
+    float: right;
+    color: #000000;
+
+
+
+}
+#navbar {
+    float: left;
+    background-image: url('/pics/left_div.jpg');
+   /*  background-image: url('C:/Users/evgenij.weigel/Desktop/RFC/pics/left_div.jpg');*/
+
+    background-size: 100%;
+    min-height: 565px;
+    width: 308px;
+    max-width: auto;
+    max-height: auto;
+    margin: 15px 15px 15px 15px;
+}
+#navbar_dashboard {
+    float: left;
+    background-size: 100%;
+    min-height: 565px;
+    width: 308px;
+    max-width: auto;
+    max-height: auto;
+    margin: 15px 15px 15px 15px;
+}
+#navbar_placeholder {
+    display:block;
+    height: 250px ; 
+    margin: 15px 15px 15px 15px; 
+}
+
+#stati_sub_form 
+{
+    font-size: 16px;
+    font-family: sans-serif;
+    width: 160px;
+    height: 60;
+    color: #000000;
+    margin: 20px 0px 0px 10px;
+
+}
+#request_form {
+    margin: 70px 15px 25px 60px;
+}
+
+#txt_request_form {
+    width: 300px;
+    font-style: sans-serif;
+    font-size: 16px;
+    color: #000000;
+    float:left;
+    
+}
+#input_request_form {
+    display: flex;
+    align-items: center;
+    color: #25b4dd;
+}
+#calendar_request_form {
+    margin: 500px 500px 10px 15px;
+}
+#pen_img {
+
+    margin: 25px 0px 10px 20px;}
+#stw_img {
+
+margin:15px 25px 10px 0px;
+/*background-color: #25b4dd;*/
+float: right;
+}
+#rfc_logo {
+    font-size: 32px;
+    margin: 35px 0px 100px 15px;
+    font-style:italic;
+    font-weight:800;
+    font-family: sans-serif;
+}
+#welcome {
+        font-size: 20px;
+        color: #000000;
+        margin: 35px 0px 0px 50px;
+        font-style:italic;
+        font-family: sans-serif;
+}
+#main {
+  background-image: url('/pics/main_content.JPG');
+   /*   background-image: url('C:/Users/evgenij.weigel/Desktop/RFC/pics/main_content.JPG');*/
+    background-size: 100%;
+    border:#25b4dd;
+    border: solid;
+    height: 480px;
+    width:720px;
+    background-color: #f5f5f5;
+    margin: 0px 25px 25px 5px;
+    float: right;
+}
+
+#main_start {
+    background-image: url('/pics/main_content.JPG');
+     /*   background-image: url('C:/Users/evgenij.weigel/Desktop/RFC/pics/main_content.JPG');*/
+      background-size: 100%;
+      height: 480px;
+      width:720px;
+      background-color: #f5f5f5;
+      margin: 0px 25px 25px 5px;
+      float: right;
+  }
+
+#RFC_Table
+{
+    height: 510px;
+}
+    .btn1{
+    
+        width: 180px;
+        height: 30px;
+        font-weight: bold;
+        font-size: 13px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #000000;
+        background:transparent;
+        border: 2px solid #000000;
+        border-radius: 11px;
+        margin: 20px 40px 20px 40px;
+           }
+    
+    .btn1:hover{
+        color: #ffffff;
+        background:#000000;
+        border-color: #000000;
+    }
+
+    .btn2 {
+    width: 180px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 13px;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+    color: #25b4dd;
+    background: transparent;
+    border: 2px solid #25b4dd;
+    border-radius: 11px;
+    margin: 20px 40px 20px 40px;
+      }
+   
+   .btn2:hover {
+        color: #ffffff;
+        background:#000000;
+        border-color: #000000;
+   }
+    
+        .btn3{
+    
+            width: 180px;
+            height: 30px;
+            font-weight: bold;
+            font-size: 13px;
+            display: flex;
+	        align-items: center;
+	        justify-content: center;
+            color: #ffffff;
+            background: #25b4dd;
+            border: 2px solid #25b4dd;
+            border-radius: 11px;
+            margin: 20px 40px 20px 40px;
+           
+            }
+            
+            .btn3:hover{
+        
+                color: #ffffff;
+                background: #000000;
+                border-color: #000000;
+            }
+            .btn4{
+    
+                width: 180px;
+                height: 30px;
+                font-weight: bold;
+                font-size: 13px;
+                color: #25b4dd;
+                display: flex;
+	            align-items: center;
+	            justify-content: center;
+                background: transparent;
+                border: 2px solid #25b4dd;
+                border-radius: 11px;
+                margin: 20px 40px 20px 40px;
+                   
+                }
+                
+                .btn4:hover{
+            
+                    color: #ffffff;
+                    background: #000000;
+                    border-color: #000000;
+                }
+                .btn5 {
+    
+                    width: 180px;
+                    height: 30px;
+                    font-weight: bold;
+                    font-size: 13px;
+                    color: #ffffff;
+                    display: flex;
+	                align-items: center;
+	                justify-content: center;
+                    background: #000000;
+                    border: 2px solid #000000;
+                    border-radius: 11px;
+                    margin: 20px 40px 20px 40px;
+                           
+                    }
+                    
+                    .btn5:hover{
+                
+                        color: #000000;
+                        background: #ffffff;
+                        border-color: #000000;
+                    }
+                        .btn6 {
+    
+                        width: 110px;
+                        height: 30px;
+                        font-weight: bold;
+                        font-size: 13px;
+                        color: #ffffff;
+                        display: flex;
+	                    align-items: center;
+	                    justify-content: center;
+                        background: #000000;
+                        border: 2px solid #000000;
+                        border-radius: 11px;
+                        float:left;
+                        margin: 0 0 0 0;      
+
+                                   
+                            }
+                            
+                        .btn6:hover{
+                        
+                        color: #000000;
+                        background: #ffffff;
+                        border-color: #000000;
+                            }
+                                .btn7 {
+    
+                                    width: 110px;
+                                    height: 30px;
+                                    font-weight: bold;
+                                    font-size: 13px;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    color: #25b4dd;
+                                    background: transparent;
+                                    border: 2px solid #25b4dd;
+                                    border-radius: 11px;
+                                    float: right;
+                                    margin: 0 0 0 0;      
+                                    }
+                                    
+                                    .btn7:hover{
+                                    color: #ffffff;
+                                    background:#25b4dd;
+                                    border-color: #25b4dd;
+                        
+                    }
+         
+                    a:link,a:visited ,a:active,a:hover{
+                        text-decoration: none !important;
+              
+                    }
+                    .btn8 {
+    
+                        width: 110px;
+                        height: 30px;
+                        font-weight: bold;
+                        font-size: 13px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        color: #25b4dd;
+                        background: transparent;
+                        border: 2px solid #25b4dd;
+                        border-radius: 11px;
+                        float: left;
+                        margin: 0 10px 0 10px;      
+                    }
+                        
+                        .btn8:hover{
+                        color: #ffffff;
+                        background:#25b4dd;
+                        border-color: #25b4dd;
+            
+        }
+        
+        .btn9{
+    
+            width: 110px;
+            height: 30px;
+            font-weight: bold;
+            font-size: 13px;
+            display: flex;
+	        align-items: center;
+	        justify-content: center;
+            color: #ffffff;
+            background: #25b4dd;
+            border: 2px solid #25b4dd;
+            border-radius: 11px;
+            margin: 0 10px 0 10px;      
+            float: left;
+
+           
+            }
+            
+            .btn9:hover:hover{
+        
+                color: #ffffff;
+                background: #000000;
+                border-color: #000000;
+            }
+
+            .btn10 {
+    
+                width: 110px;
+                height: 30px;
+                font-weight: bold;
+                font-size: 13px;
+                display: flex;
+                color: #ffffff;
+                align-items: center;
+                justify-content: center;
+                color: #000000;
+                background:transparent;
+                border: 2px solid #000000;
+                border-radius: 11px;
+                margin: 0 10px 0 10px;      
+                float: left;
+                       
+                }
+                
+                .btn10:hover{
+            
+                color: #ffffff;
+                background:#000000;
+                border-color: #000000;
+                }
+        a:link,a:visited ,a:active,a:hover{
+            text-decoration: none !important;
+  
+        }          
+ 
+
+ 
+#footer {
+    margin-top: 10px;
+    background-color: #f5f5f5;
+}

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/png" href="pics/favicon.ico">
+<link rel="stylesheet" href="cal_jquery-ui.css">
+<script src="js/cal_jquery-3.6.0.min.js"></script>
+<script src="js/cal_jquery-ui.js"></script>
+</head>
+</head>
+
+<div id="overall_form">
+  <div id="head">
+  <div id="head_request_form_left"><h2>RFC Tool</h2></div>
+  <div id="head_request_form_right"> RFC Nr.</div></div>
+
+<div id="request_form">
+        <!--Titel-->
+      <div id="txt_request_form">Titel *</div> <div id="input_request_form">    <input align:top; type="text" name="Titel" id="Titel" style=" font-size: 15px;border: 2px solid #25b4dd; border-radius: 5px;width: 400px;height: 30px;"></div><br>
+        <!--Grund-->
+        <div id="txt_request_form">Grund *</div> <div id="input_request_form"><select name="grund" style="  font-size: 15px;border: 2px solid #25b4dd; width: 220px; height: 30px;">
+          <option disabled selected value > -- bitte ausw&auml;hlen -- </option>
+
+        <option value="option1">Option 1</option>
+        <option value="option2">Option 2</option>
+        <option value="option3">Option 3</option>
+      </select></div><br>
+        <!--Nötige Schritt-->
+        <div id="txt_request_form">N&ouml;tige Schritte *</div> <div id="input_request_form"><input type="text" name=" Nötige Schritte" id="Nötige Schritte" style="text-align:top ; font-size: 15px;border: 2px solid #25b4dd; border-radius: 5px;width: 420px;height: 80px;"></input></div><br>
+        <!-- Gewünschter Termin-->
+        <div id="txt_request_form"> Gew&uuml;nschter Termin, Datum:</div>
+        <!--Kalendar-->
+        <div id="input_request_form"><form>
+          <label for="datepicker"></label>
+          <input type="text" id="datepicker" name="datum" readonly style=" font-size: 15px;border: 2px solid #25b4dd; width: 220px; height: 30px;">
+          <input type="submit" value="Absenden">
+        </form>
+        <script>
+          // JavaScript-Code, um das Kalenderfeld zu initialisieren
+          $( function() {
+            $( "#datepicker" ).datepicker();
+          } );
+        </script></div>
+        <br>
+        <!--Innerhalb des Wartungsfensters *-->
+        <div id="txt_request_form"> Innerhalb des Wartungsfensters * </div> <div id="input_request_form"><select name="Innerhalb des Wartungsfensters"style=" font-size: 15px;border: 2px solid #25b4dd; width: 220px; height: 30px;">
+  <option disabled selected value> -- bitte ausw&auml;hlen -- </option>
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>      </select></div><br>
+
+        <!--ProSerF Maintenance erforderlich? *-->
+        <div id="txt_request_form"> ProSerF Maintenance erforderlich? * </div> <div id="input_request_form"><select name="Innerhalb des Wartungsfensters"style=" font-size: 15px;border: 2px solid #25b4dd; width: 220px; height: 30px;">
+<option disabled selected value> -- bitte ausw&auml;hlen -- </option>
+            <option value="option1">Option 1</option>
+          <option value="option2">Option 2</option>
+          <option value="option3">Option 3</option>      </select></div><br>
+        <!--Betroffene Systeme *-->
+        <div id="txt_request_form"> Betroffene Systeme * </div> <div id="input_request_form"><select name="Innerhalb des Wartungsfensters"style=" font-size: 15px;border: 2px solid #25b4dd; width: 220px; height: 30px;">
+<option disabled selected value> -- bitte ausw&auml;hlen -- </option>
+            <option value="option1">Option 1</option>
+          <option value="option2">Option 2</option>
+          <option value="option3">Option 3</option>      </select></div><br>
+        <!--Dauer des Updates *-->
+        <div id="txt_request_form"> Dauer des Updates * </div><div id="input_request_form"><select name="Innerhalb des Wartungsfensters"style=" font-size: 15px;border: 2px solid #25b4dd; width: 220px; height: 30px;">
+<option disabled selected value> -- bitte ausw&auml;hlen -- </option>
+            <option value="option1">Option 1</option>
+          <option value="option2">Option 2</option>
+          <option value="option3">Option 3</option>      </select></div><br>
+        <!--Welche Services werden beeinträchtigt / ausfallen *-->
+        <div id="txt_request_form">  Welche Services werden beeintr&auml;chtigt / ausfallen * </div><div id="input_request_form"><input type="text" name="Wie lange" id="Wie lange wir der Ausfall"  style=" font-size: 15px;border: 2px solid #25b4dd; border-radius: 5px;width: 420px;height: 80px;"></div><br>
+        <!--Wie lange wird der Ausfall andauern *-->
+        <div id="txt_request_form"> Wie lange wird der Ausfall andauern *</div><div id="input_request_form"><select name="Innerhalb des Wartungsfensters"style=" font-size: 15px;border: 2px solid #25b4dd; width: 220px; height: 30px;">
+<option disabled selected value> -- bitte ausw&auml;hlen -- </option>
+          <option value="option1">Option 1</option>
+          <option value="option2">Option 2</option>
+          <option value="option3">Option 3</option>      </select></div><br>
+        <!--Kommentare-->
+        <div id="txt_request_form">Kommentare</div><div id="input_request_form"><input type="text" name="Kommentare" id="Kommentare" style=" font-size: 15px;border: 2px solid #25b4dd; border-radius: 5px;width: 420px;height: 80px;"></div><br>
+        <!--Priorität *-->
+       <div id="txt_request_form">Priorit&auml;t *</div><div id="input_request_form"><select name="Innerhalb des Wartungsfensters"style=" font-size: 15px;border: 2px solid #25b4dd; width: 220px; height: 30px;">
+<option disabled selected value> -- bitte ausw&auml;hlen -- </option>
+          <option value="option1">Option 1</option>
+          <option value="option2">Option 2</option>
+          <option value="option3">Option 3</option>      </select></div><br>
+        <!--Geschätzter Gesamtaufwand *-->
+        <div id="txt_request_form">Gesch&auml;tzter Gesamtaufwand *</div><div id="input_request_form"><select name="Innerhalb des Wartungsfensters"style=" font-size: 15px;border: 2px solid #25b4dd; width: 220px; height: 30px;">
+<option disabled selected value> -- bitte ausw&auml;hlen -- </option>
+            <option value="option1">Option 1</option>
+          <option value="option2">Option 2</option>
+          <option value="option3">Option 3</option>      </select></div><br>
+        <!--Maintenance durch ServiceDesk setzen lassen? *-->
+        <div id="txt_request_form">Maintenance durch ServiceDesk setzen lassen? *</div><div id="input_request_form"><select name="Innerhalb des Wartungsfensters"style=" font-size: 15px;border: 2px solid #25b4dd; width: 220px; height: 30px;">
+<option disabled selected value> -- bitte ausw&auml;hlen -- </option>
+            <option value="option1">Option 1</option>
+          <option value="option2">Option 2</option>
+          <option value="option3">Option 3</option>      </select></div><br>
+
+        <!--Kunde(n) *-->
+        <div id="txt_request_form">Kunde(n) *</div><div id="input_request_form"><select name="Innerhalb des Wartungsfensters"style=" font-size: 15px;border: 2px solid #25b4dd; width: 220px; height: 30px;">
+<option disabled selected value> -- bitte ausw&auml;hlen -- </option>
+            <option value="option1">Option 1</option>
+          <option value="option2">Option 2</option>
+          <option value="option3">Option 3</option>      </select></div><br>
+        <!--Change Owner-->
+        <div id="txt_request_form">Change Owner</div><div id="input_request_form"><input type="text" name="Titel" id="Titel"style=" font-size: 15px;border: 2px solid #25b4dd; border-radius: 5px;width: 150px;height: 25px;"></div><br>
+        <!--Durchführende Person-->
+        <div id="txt_request_form">Durchf&uuml;hrende Person </div><div id="input_request_form"><select name="Innerhalb des Wartungsfensters"style=" font-size: 15px;border: 2px solid #25b4dd; width: 220px; height: 30px;">
+<option disabled selected value> -- bitte ausw&auml;hlen -- </option>
+            <option value="option1">Option 1</option>
+          <option value="option2">Option 2</option>
+          <option value="option3">Option 3</option>      </select></div><br>
+        <!--Unterstützende Personen aus anderen Chaptern-->
+        <div id="txt_request_form">Unterst&uuml;tzende Personen aus anderen Chaptern</div><div id="input_request_form"><select name="Innerhalb des Wartungsfensters"style=" font-size: 15px;border: 2px solid #25b4dd; width: 220px; height: 30px;">
+<option disabled selected value> -- bitte ausw&auml;hlen -- </option>
+            <option value="option1">Option 1</option>
+          <option value="option2">Option 2</option>
+          <option value="option3">Option 3</option>      </select></div><br>
+        <!--Test erforderlich durch *-->
+        <div id="txt_request_form">Test erforderlich durch *</div><div id="input_request_form"><input type="text" name="Test durch" id="Test durch"style=" font-size: 15px;border: 2px solid #25b4dd; border-radius: 5px;width: 150px;height: 25px;"></div><br>
+        <!--Risiko-->
+        <div id="txt_request_form">Risiko</div><div id="input_request_form"><select name="Innerhalb des Wartungsfensters"style=" font-size: 15px;border: 2px solid #25b4dd; width: 220px; height: 30px;">
+<option disabled selected value> -- bitte ausw&auml;hlen -- </option>
+            <option value="option1">Option 1</option>
+          <option value="option2">Option 2</option>
+          <option value="option3">Option 3</option>      </select></div><br>
+        <!--Rollback möglich *-->
+        <div id="txt_request_form">Rollback mglich *</div><div id="input_request_form"><select name="Innerhalb des Wartungsfensters"style=" font-size: 15px;border: 2px solid #25b4dd; width: 220px; height: 30px;">
+<option disabled selected value> -- bitte ausw&auml;hlen -- </option>
+            <option value="option1">Option 1</option>
+          <option value="option2">Option 2</option>
+          <option value="option3">Option 3</option>      </select></div><br>
+        <!--Targetprocess-ID *-->
+        <div id="txt_request_form">Targetprocess-ID *</div><div id="input_request_form"><input type="text" name="Targetprocess-ID" id="Targetprocess-ID" style=" font-size: 15px;border: 2px solid #25b4dd; border-radius: 5px;width: 150px;height: 25px;"></div><br>
+        <!--BCS-ID-->
+        <div id="txt_request_form">BCS-ID</div><div id="input_request_form"><input type="text" name="BCS-ID" id="BCS-ID" style=" font-size: 15px;border: 2px solid #25b4dd; border-radius: 5px;width: 150px;height: 25px;"></div><br>
+        <!--BCS-ID-->
+        <!--Outlook Termin durch ServiceDesk erstellen lassen? *-->
+        <div id="txt_request_form">Outlook Termin durch ServiceDesk erstellen lassen? * </div><div id="input_request_form"><select name="Innerhalb des Wartungsfensters"style=" font-size: 15px;border: 2px solid #25b4dd; width: 220px; height: 30px;">
+<option disabled selected value> -- bitte ausw&auml;hlen -- </option>
+            <option value="option1">Option 1</option>
+          <option value="option2">Option 2</option>
+          <option value="option3">Option 3</option>      </select></div><br>
+        <!--RFC Status *-->
+        <div id="txt_request_form">RFC Status *</div><div id="input_request_form"><select name="Innerhalb des Wartungsfensters"style=" font-size: 15px;border: 2px solid #25b4dd; width: 220px; height: 30px;">
+<option disabled selected value> -- bitte ausw&auml;hlen -- </option>
+            <option value="option1">Option 1</option>
+          <option value="option2">Option 2</option>
+          <option value="option3">Option 3</option>      </select></div><br><br><br>
+       <a href="index.html"> <div class="btn6">ZUR&Uuml;CK</div></a><a href="index.html"> <div class="btn7">SPEICHERN</div> <br><br></div>
+
+ 
+    <div style="clear: both;"></div>
+<!--<div id="footer"></a>
+</h1>
+    </div>
+</div>
+</html>
